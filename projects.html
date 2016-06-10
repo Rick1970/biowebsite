@@ -9,28 +9,39 @@
   </head>
 
   <body>
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <h4 class="navbar-brand text-muted">Explore Ricks world</h4>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="contactme.html">Contact me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li class="active"><a href="projects.html">Projects</a></li>
-          <li><a href="contactme.html">Contact me</a></li>
-        </ul>
-        <h4>Ricks World</h4>
-      </header>
+      
       <div class="jumbotron">
         <h1>Ricks current projects.</h1>
         <h3>Being that this is only day five with Epicodus; my projects are a bit scruffy looking.  But they won't be that way for long!!</h3>
         <p><a class="btn btn-success" href="https://github.com/Rick1970">Go to Ricks Github</a></p>
       </div>
       <div class="row">
-        <h3><a href="https://github.com/Rick1970/vacation">The Vacation website</a></h3>
-        <p class="big">The class had our first exposure to bootstrap.  We used bootstrap to style a generic website.  Please notice that, compared to some of my other projects, this one actually could pass for a website (thank you bootstrap!)</p>
-        <h3><a href="https://github.com/Rick1970/cupcake-shop">Cupcake Shop</a></h3>
-        <p class="big">On this project we were starting to incorporate css stylesheets, and images into our very basic web pages</p>
-        <h3><a href="https://github.com/Rick1970/resort">Resort</a></h3>
-        <p class="big">This was our first foray into building multi-page websites.  All the links work, but styling is nonexsistent.  Par for the course for day two.</p>
+        <div class="col-md-4">
+          <h3><a class="btn btn-primary" href="https://github.com/Rick1970/vacation">The Vacation website</a></h3>
+          <p class="big">The class had our first exposure to bootstrap.  We used bootstrap to style a generic website.  Please notice that, compared to some of my other projects, this one actually could pass for a website (thank you bootstrap!)</p>
+        </div>
+        <div class="col-md-4">
+          <h3><a class="btn btn-primary" href="https://github.com/Rick1970/cupcake-shop">Cupcake Shop</a></h3>
+          <p class="big">On this project we were starting to incorporate css stylesheets, and images into our very basic web pages</p>
+        </div>
+          <div class="col-md-4">
+            <h3><a class="btn btn-primary" href="https://github.com/Rick1970/resort">Resort</a></h3>
+            <p class="big">This was our first foray into building multi-page websites.  All the links work, but styling is nonexsistent.  Par for the course for day two.</p>
+          </div>
       </div>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </div>
