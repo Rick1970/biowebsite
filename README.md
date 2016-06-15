@@ -10,7 +10,7 @@ _The site is a biography, info site with a home/landing page, an about page, a p
 
 ## Setup/Installation Requirements
 
-* _Run code in the browser._
+* _Clone the repo from (https://github.com/Rick1970/biowebsite). Open with text editor.  Run in the browser_
 
 
 ## Known Bugs
