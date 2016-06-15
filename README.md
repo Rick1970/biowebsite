@@ -32,4 +32,4 @@ _Used atom text editor.  Document's are html files, styled with bootstrap, and c
 
 Copyright (c) 2016 **_Rick Thornbrugh_**
 
-[Click here] to check out the website. (http://Rick1970.github.io/biowebsite)
+To check out the website click: (http://Rick1970.github.io/biowebsite)
