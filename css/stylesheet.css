@@ -4,4 +4,21 @@
 
 .jumbotron {
   text-align: center;
+  background-color: #b3c8bf;
+  color: black;
+}
+
+body {
+  background-color: #6f6c9c;
+  color: black;
+}
+
+.float {
+  float: left;
+  border: 3px solid #b3c8bf;
+  margin-right: 3em;
+}
+
+.space {
+  text-align: justify;
 }
